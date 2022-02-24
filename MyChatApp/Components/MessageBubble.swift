@@ -17,6 +17,7 @@ struct MessageBubble: View {
                 Text(message.text)
                     .padding()
                     .background(message.received ? Color("Gray") : Color("Main"))
+                    .foregroundColor(message.received ? .black : .white)
                     .cornerRadius(30)
             }
             .frame(maxWidth: 300, alignment: message.received ? .leading : .trailing)
