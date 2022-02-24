@@ -96,6 +96,7 @@
 		156B2A9927C7BA11005BC7DD /* MyChatApp */ = {
 			isa = PBXGroup;
 			children = (
+				156B2AC727C7D984005BC7DD /* Models */,
 				156B2AC427C7BC4F005BC7DD /* Components */,
 				156B2A9A27C7BA11005BC7DD /* MyChatAppApp.swift */,
 				156B2A9C27C7BA11005BC7DD /* ContentView.swift */,
@@ -136,6 +137,13 @@
 				156B2AC527C7BC76005BC7DD /* TitleRow.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		156B2AC727C7D984005BC7DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
