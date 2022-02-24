@@ -24,11 +24,15 @@ struct TitleRow: View {
             
             VStack(alignment: .leading) {
                 Text(name)
-                    .font(.title).bold()
+                    .font(.title2).bold()
                     .foregroundColor(.white)
-                Text("Online")
-                    .font(.caption)
-                    .foregroundColor(.gray)
+                HStack {
+                    Image(systemName: "circle.fill")
+                        .foregroundColor(.green)
+                    Text("Online")
+                        .font(.caption).bold()
+                    .foregroundColor(.green)
+                }
             }
             .frame(maxWidth: .infinity, alignment: .leading)
             
