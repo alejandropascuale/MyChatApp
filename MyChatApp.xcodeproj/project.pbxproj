@@ -17,6 +17,7 @@
 		156B2AC627C7BC76005BC7DD /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B2AC527C7BC76005BC7DD /* TitleRow.swift */; };
 		156B2AC927C7D9C6005BC7DD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B2AC827C7D9C6005BC7DD /* Message.swift */; };
 		156B2ACC27C7DA66005BC7DD /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B2ACB27C7DA66005BC7DD /* MessageBubble.swift */; };
+		156B2ACE27C80DC6005BC7DD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156B2ACD27C80DC6005BC7DD /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		156B2AC527C7BC76005BC7DD /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		156B2AC827C7D9C6005BC7DD /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		156B2ACB27C7DA66005BC7DD /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		156B2ACD27C80DC6005BC7DD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				156B2A9C27C7BA11005BC7DD /* ContentView.swift */,
 				156B2A9E27C7BA13005BC7DD /* Assets.xcassets */,
 				156B2AA027C7BA13005BC7DD /* Preview Content */,
+				156B2ACD27C80DC6005BC7DD /* Extensions.swift */,
 			);
 			path = MyChatApp;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156B2A9D27C7BA11005BC7DD /* ContentView.swift in Sources */,
+				156B2ACE27C80DC6005BC7DD /* Extensions.swift in Sources */,
 				156B2AC927C7D9C6005BC7DD /* Message.swift in Sources */,
 				156B2ACC27C7DA66005BC7DD /* MessageBubble.swift in Sources */,
 				156B2A9B27C7BA11005BC7DD /* MyChatAppApp.swift in Sources */,
